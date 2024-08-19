@@ -150,15 +150,16 @@ ret
 ## OR alp
 ```
 org 100h
-mov ax,3244h;
-mov bx,0199h;
-xor ax,bx;
-mov [3211h],ax; 
+mov ax,2311h;
+mov bx,8733h;
+or ax,bx;
+mov [8755h],ax; 
 
 ret
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/89cf4aa8-13b5-4d98-aba8-b6e83fd54dcc)
+![image](https://github.com/user-attachments/assets/252de3b7-3e80-428f-ae91-c9446508737e)
+
 
 ## NOT alp
 ```
