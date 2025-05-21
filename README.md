@@ -1,4 +1,4 @@
-# EXPERIMENT--01-ALP-FOR-8086
+![b217615fd2c34dd98a60242589c67a48](https://github.com/user-attachments/assets/4238c73b-4c81-46d0-8bd5-f114e10f25a1)# EXPERIMENT--01-ALP-FOR-8086
 Name : AYISHA RINSI K
 Roll no :212223040022
 Date of experiment :
@@ -79,96 +79,80 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 ```
-org 100h
-mov ax,3244h;
-mov bx,3422h;
-add ax,bx;
-mov [8975h],ax; 
+MOV AL,21H;
+MOV BL,30H;
+ADD AL,BL;
+RET
 
-ret
 ```
 
 ## Output 
-![image](https://github.com/user-attachments/assets/35173338-fb72-46f4-b5e7-ef812a312d07)
+
+![b217615fd2c34dd98a60242589c67a48](https://github.com/user-attachments/assets/e73fbcd2-9f8a-4ae0-85ea-546d3ac36c8f)
 
 
 ## Subtraction   of 8 bit numbers  ALP 
  ```
-org 100h
-mov ax,6544h;
-mov bx,8765h;
-sub ax,bx;
-mov [8765h],al; 
-
-ret
+MOV AL,21H;
+MOV BL,30H;
+SUB AL,BL;
+RET
 ```
 
 ## Output
-![image](https://github.com/user-attachments/assets/47450a52-ab27-4d4d-8b43-efb57dc90a1c)
-
+![b58a6ee6a9394db8a13b8b010bb25ac9](https://github.com/user-attachments/assets/5a4d9893-34bf-49ae-b6e3-b853deb141d1)
 
 ## Multiplication alp 
 ```
-org 100h
-mov ax,3244h;
-mov bx,1222h;
-mul ax;
-mov [8754h],al; 
-
-ret
+MOV AL,21H;
+MOV BL,30H;
+MUL AL;
+RET
 ```
  ## Output 
- ![image](https://github.com/user-attachments/assets/338f9f26-4d23-4702-b23e-c3a8cb13af9e)
+
+![1d349248ce224894b0ab83f9985f373b](https://github.com/user-attachments/assets/5f3a2849-dd32-4162-99e6-941dac1c65c2)
 
 
 ## Division alp 
 ```
-org 100h
-mov ax,2233h;
-mov bx,2766h;
-div ax;
-mov [7655h],ax; 
-
-ret
+MOV AL,21H;
+MOV BL,30H;
+DIV AL;
+RET
 ```
 ## Output  
-![image](https://github.com/user-attachments/assets/c582aab0-d452-493b-8ddb-4ae9ec33e772)
+![4ce472e07e82494d88e525037164fc82](https://github.com/user-attachments/assets/f44ca770-321c-4ae1-9a8b-ce1f3829d23a)
+
 
 ## AND alp
 ```
-org 100h
-mov ax,1232h;
-mov bx,8722h;
-and ax,bx;
-mov [6755h],bx; 
-
-ret
+MOV AL,21H;
+MOV BL,30H;
+AND AL,BL;
+RET
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/1cebadc0-9700-43fa-b856-4ffc869d966d)
+![and](https://github.com/user-attachments/assets/f79247c9-3781-44ff-a486-8cc2176fdf94)
+
 
 ## OR alp
 ```
-org 100h
-mov ax,2311h;
-mov bx,8733h;
-or ax,bx;
-mov [8755h],ax; 
-
-ret
+MOV AL,21H;
+MOV BL,30H;
+OR AL,BL;
+RET
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/252de3b7-3e80-428f-ae91-c9446508737e)
+![or](https://github.com/user-attachments/assets/17418480-3a30-4f6e-9208-4e8669de1c20)
+
 
 
 ## NOT alp
 ```
-org 100h
 mov ax,6355h;
 mov bx,1233h;
 not ax;
-mov [7655h],ax; 
-
 ret
 ```
 ## Output
@@ -176,16 +160,14 @@ ret
 
 ## XOR alp
 ```
-org 100h
-mov ax,3244h;
-mov bx,0199h;
-xor ax,bx;
-mov [3211h],ax; 
-
-ret
+MOV AL,21H;
+MOV BL,30H;
+XOR AL,BL;
+RET
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/b13690b4-3e55-4cf3-b3be-e7b5b1953e2e)
+![xor](https://github.com/user-attachments/assets/0f7f13d3-016e-4150-bf4f-331d91d581a2)
+
 
 
 ## Result :
