@@ -1,7 +1,7 @@
-![b217615fd2c34dd98a60242589c67a48](https://github.com/user-attachments/assets/4238c73b-4c81-46d0-8bd5-f114e10f25a1)# EXPERIMENT--01-ALP-FOR-8086
+# EXPERIMENT--01-ALP-FOR-8086
 Name : AYISHA RINSI K
 Roll no :212223040022
-Date of experiment :
+Date of experiment : 21-05-2025
 
 
 
