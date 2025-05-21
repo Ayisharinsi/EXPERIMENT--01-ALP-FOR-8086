@@ -42,7 +42,7 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 
 
-9.	Click on emulate to start emulation 
+9.	Click on emulate to start emulation
 
 
 
